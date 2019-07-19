@@ -15,19 +15,11 @@
     <link rel="stylesheet" href="{{ theme:css }}" />
   </head>
 
-  <body
-    class="font-sans antialiased min-h-screen"
-    style="background: transparent url({{ theme:img src='runway.svg' }}) bottom
-    center no-repeat; background-size: 100% 50%"
-  >
-    <!-- ^ You'll probably want to delete this inline style and the image in favor of your own theme  -->
-
+  <body class="font-sans antialiased min-h-screen">
     <div id="app" class="container mx-auto" v-cloak>
         {{ template_content }}
     </div>
 
-    <!-- {{ theme:js src="manifest" tag="true" }} -->
-    <!-- {{ theme:js src="vendor" tag="true" }}   -->
     {{ theme:js tag="true" }}
   </body>
 </html>
