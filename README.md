@@ -2,15 +2,13 @@
 
 **A starter theme for Statamic with Laravel Mix and Tailwind CSS**
 
-*…and because Freebird didn't set up PurgeCSS correctly*
-
 Runway is a theme boilerplate with Tailwind 1.0, Laravel Mix, and ready to go with dynamic Vue components.
 
 
 ## Setup
 
-1. Get a statamic site up and running with your preferred method
-2. Download Freebird into your `site/themes` folder
+1. Get a Statamic site up and running with your preferred method
+2. Download Runday into your `site/themes` folder
    - or clone from github with `git clone https://github.com/brandonpittman/runway.git`
 3. Set Runway to the active theme under **Settings => Theming** in the control panel,
    or in the `site/settings/theming.yaml` file.
@@ -19,9 +17,8 @@ Runway is a theme boilerplate with Tailwind 1.0, Laravel Mix, and ready to go wi
 
 ## Building Your Theme
 
-**The theme assets are all within the `resources` folder.**
-
-## Deploying
+The theme assets are all within the `resources` folder. No Less or Sass here
+folks. We're using *Tailwind*, **so it's PostCSS all the way.**
 
 ## Contributing
 
