@@ -1,0 +1,9 @@
+@tailwind base;
+
+[v-cloak] {
+  display: none;
+}
+
+@tailwind components;
+
+@tailwind utilities;

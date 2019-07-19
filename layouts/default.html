@@ -17,14 +17,17 @@
 
   <body
     class="font-sans antialiased min-h-screen"
-    style="background: transparent url({{ theme:img src='freebird.png' }}) bottom center no-repeat;"
+    style="background: transparent url({{ theme:img src='runway.svg' }}) bottom
+    center no-repeat; background-size: 100% 50%"
   >
     <!-- ^ You'll probably want to delete this inline style and the image in favor of your own theme  -->
 
-    <div class="container mx-auto">
-      {{ template_content }}
+    <div id="app" class="container mx-auto" v-cloak>
+        {{ template_content }}
     </div>
 
-    <script src="{{ theme:js }}"></script>
+    <!-- {{ theme:js src="manifest" tag="true" }} -->
+    <!-- {{ theme:js src="vendor" tag="true" }}   -->
+    {{ theme:js tag="true" }}
   </body>
 </html>
