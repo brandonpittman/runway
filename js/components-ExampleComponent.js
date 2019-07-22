@@ -45,7 +45,7 @@ var render = function() {
   return _c("div", [
     _c(
       "p",
-      { staticClass: "text-blue-500 text-3xl mt-8 italic" },
+      { staticClass: "text-blue-500 text-3xl mt-8" },
       [
         _vm._t("default", [
           _vm._v("Thanks for trying " + _vm._s(_vm.name) + "!")

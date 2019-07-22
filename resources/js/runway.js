@@ -1,5 +1,4 @@
 import Vue from 'vue'
-// import ExampleComponent from './components/ExampleComponent.vue'
 
 const files = require.context('./', true, /\.vue$/i, 'lazy').keys()
 
