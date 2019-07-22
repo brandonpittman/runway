@@ -1,7 +1,7 @@
 @tailwind base;
 
 [v-cloak] {
-  display: none;
+	display: none;
 }
 
 @tailwind components;

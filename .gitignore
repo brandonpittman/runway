@@ -1,5 +1,5 @@
 .DS_Store
 node_modules
 npm-debug.log
-css/runway.css
-js/runway.js
+css
+js
