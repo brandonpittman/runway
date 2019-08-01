@@ -12,7 +12,7 @@ mix
   })
   .webpackConfig({
     output: {
-      publicPath: 'site/themes/runway/',
+      publicPath: '/site/themes/runway/',
     },
   })
   //  .extract()
